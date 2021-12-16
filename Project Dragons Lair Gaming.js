@@ -1,3 +1,19 @@
+/* The following code is for the Responsive Top Navigation */
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+/* End of code for the Responsive Top Navigation */
+
+/* The following code is for the slideshow */
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -32,3 +48,5 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
   captionText.innerHTML = dots[slideIndex - 1].alt;
 }
+
+/* End of code for the slideshow */
