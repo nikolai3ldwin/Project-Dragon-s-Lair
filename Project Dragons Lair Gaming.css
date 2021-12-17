@@ -33,6 +33,14 @@ section.row img {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1500px;
+  height: 1500px;
+}
+
+#mySlidesFirst {
+  display: block;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
