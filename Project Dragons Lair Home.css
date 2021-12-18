@@ -1,0 +1,45 @@
+header {
+  border: 1px solid #333;
+}
+
+.PDLtitle {
+  font-weight: bold;
+  font-size: 80px;
+  color: #c5b90c;
+}
+
+body .headImg {
+  background-image: no-repeat;
+  position: fixed;
+  width: 50%;
+  opacity: 0.2;
+  height: auto;
+  top: 50%;
+  left: 50%;
+}
+
+.missionStatement {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  color: #ffffff;
+  z-index: 3;
+  position: relative;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.missionStatement h1 {
+  text-align: center;
+}
+
+.missionStatement h2 {
+  text-align: center;
+}
+
+.missionStatement p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
