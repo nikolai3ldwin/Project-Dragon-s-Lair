@@ -25,8 +25,10 @@ body .headImg {
   color: #ffffff;
   z-index: 3;
   position: relative;
-  border-top: 1px solid #333;
-  border-bottom: 1px solid #333;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  border-right: 2px solid #333;
+  border-left: 2px solid #333;
 }
 
 .missionStatement h1 {
