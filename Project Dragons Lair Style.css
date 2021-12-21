@@ -102,7 +102,7 @@ div.banner1 a:hover {
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem; /* Footer height */
+  padding-bottom: 8rem; /* Footer height */
 }
 
 #siteFooter {
@@ -113,5 +113,5 @@ div.banner1 a:hover {
   background-color: #333;
   color: #ffffff;
   text-align: center;
-  border-top: 2px #c5b90c;
+  border-top: 1px solid #c5b90c;
 }

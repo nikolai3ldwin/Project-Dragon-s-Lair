@@ -157,3 +157,7 @@ footer ul li {
   float: left;
   margin: 3px;
 }
+
+#content-wrap2 {
+  padding-bottom: 2.5rem; /* Footer height */
+}
