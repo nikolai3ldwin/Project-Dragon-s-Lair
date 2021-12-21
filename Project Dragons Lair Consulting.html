@@ -13,10 +13,10 @@
     <link
       href="'https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'"
     />
-    <link rel="stylesheet" href="Project Dragons Lair Education.css" />
+    <link rel="stylesheet" href="Project Dragons Lair Consulting.css" />
     <link rel="stylesheet" href="Project Dragons Lair Style.css" />
     <script src="Project Dragons Lair Style.js"></script>
-    <script src="Project Dragons Lair Education.js"></script> 
+    <script src="Project Dragons Lair Consulting.js"></script> 
 
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link
@@ -32,46 +32,54 @@
             <a href="Project Dragons Lair Home.html">Home</a>
             <a href="Project Dragons Lair Gaming.html">Gaming</a>
             <a href="Project Dragons Lair Education.html">Education</a>
-            <a href="Project Dragons Lair Office.html" class="active">Office</a>
-            <a href="Project Dragons Lair Consulting.html">Consulting</a>
+            <a href="Project Dragons Lair Office.html">Office</a>
+            <a href="Project Dragons Lair Consulting.html"class="active">Consulting</a>
             <a href="#about">About</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i
             ></a>
           </div>
           <div class="banner1">
-            <h1><strong>VR | Office</strong></h1>
-            <h2>
-              <strong> Office | Meetings | Conference Calls </strong>
-            </h2>
-            <h3><a href="#Consulting">Consulting</a></h3>
+            <h1><strong>VR | Consulting</strong></h1>
+              <strong>
+                <a href="Project Dragons Lair Gaming.html">Gaming</a> |
+                <a href="#Project Dragons Lair Education.html">Education</a> |
+                <a href="#Project Dragons Lair Office.html">Office</a>
+              </strong>
           </div>
         </header>
         <main class="container">
           <div class="PDLtitle">
             <h1><strong>Project Dragon's Lair</strong></h1>
-         <div class="row">
-  <div class="column">
-    <img src="https://lh3.googleusercontent.com/proxy/UXdE9ykrHHzOZx7UcXUl9xx8y4dQ7imZS1dmZmTSo2ptGQ68Ftonq_2ljMNDi2okwuBInwyF4XYckN7EUMQCpAgHMHLaiyCHcURnhzj7cmd41VyTZsZYwus4Bk0432k6" alt="Snow" style="width:100%" class="image">
-      <div class="picOverlay">Design Rendering</div>
-  </div>
-  <div class="column">
-    <img src="https://www.hermanmiller.com/content/dam/hmicom/app_assets/planning_ideas/classroom/classroom_003/Classroom_003_pi_i.jpg" alt="Forest" style="width:100%" class="image">
-          <div class="picOverlay">3D Draft Rendering</div>
-  </div>
-  <div class="column">
-    <img src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/c5d238bac08844a8603d6fc989dcb439/large.jpg" alt="Mountains" style="width:100%" class="image">
-          <div class="picOverlay">3D Concept Rendering</div>
-  </div>
+ <div class="consultContainer">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name....">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name....">
+
+    <label for="cCategory">Category</label>
+    <select id="cCategory" name="consultationCategory">
+      <option value="Gaming">Gaming</option>
+      <option value="Gaming">Education</option>
+      <option value="Education">Office</option>
+    </select>
+
+    <label for="phnumber">Phone Number</label>
+    <input type="text" id="phnumber" name="phonenumber" placeholder="Phone#">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="Email" placeholder="email@">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something...." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
 </div> 
-          <div>
-            <img
-              class="headImg"
-              src="https://cdn.pixabay.com/photo/2021/05/28/20/11/ouroboros-6291969_1280.png"
-              alt="ouroborus logo"
-            />
-          </div>
-          <div class="classDevPics"></div>
         </main>
       </div>
       <footer>
