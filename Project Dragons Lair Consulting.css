@@ -4,45 +4,27 @@
   color: #c5b90c;
 }
 
-label {
-  font-size: 24px;
-  color: #641c1c;
-}
-
-/* Style inputs with type="text", select elements and textareas */
-input[type="text"],
-select,
-textarea {
-  width: 100%; /* Full width */
-  padding: 10px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 10px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-  font-size: 24px;
-  color: #641c1c;
-}
-
-/* Style the submit button with a specific background color etc */
-input[type="submit"] {
-  background-color: #641c1c;
-  color: white;
-  padding: 12px 20px;
-  border: none;
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
   border-radius: 10px;
-  cursor: pointer;
-  font-size: 24px;
+  font-size: 16px;
+  color: #641c1c;
+  padding: 15px;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type="submit"]:hover {
-  background-color: #c5b90c;
-}
-
-/* Add a background color and some padding around the form */
-.consultContainer {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-  height: auto;
+/* Full-width inputs */
+input[type="select"],
+input[type="text"],
+input[type="lastname"],
+input[type="phnumber"],
+input[type="email"],
+input[type="subject"],
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
